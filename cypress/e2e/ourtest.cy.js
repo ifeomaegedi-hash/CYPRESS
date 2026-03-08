@@ -12,11 +12,8 @@ describe('LOGIN',()=>{
         cy.get('[data-test="checkout"]').click()
         cy.get('[data-test="firstName"]').click().type('John')
         cy.get('[data-test="lastName"]').click().type('Particle')
-        cy.get('[data-test="postalCode"]').click().type('12345')
         cy.get('[data-test="continue"]').click()
         cy.get('[data-test="finish"]').click()
         
-
-    })
-
-       })
+})
+})
