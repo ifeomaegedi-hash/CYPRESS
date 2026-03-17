@@ -14,6 +14,6 @@ describe('LOGIN', () => {
     cy.get('[data-test="postalCode"]').click().type('234')
     cy.get('[data-test="continue"]').click()
     cy.get('[data-test="finish"]').click()
-
+    
   })
 })
